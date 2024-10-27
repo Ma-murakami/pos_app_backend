@@ -6,7 +6,7 @@ from .mymodels import Product
 from .database import engine
 
 # CSVファイルのパス
-csv_file_path = "C:/Users/kouji/Desktop/Tech0/step4/tech0_step4_pos_app_items.csv"
+csv_file_path = "C:\Users\masat\OneDrive\デスクトップ\tech0_step4_pos app_items.csv"
 
 # データベースへのセッションを作成
 session = Session(bind=engine)
